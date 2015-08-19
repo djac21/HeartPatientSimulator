@@ -33,7 +33,7 @@ public class Sample1 extends Activity {
     Button plottingControl;
     private double XValue=0;
     private double YValue=0;
-    private int heartRate = 60;
+    private int heartRate = 0;
     private boolean isPlot = true;
     private boolean isPulseChecklock = false;
     int n = 0;

@@ -35,7 +35,7 @@ public class Hypertrophy extends Activity {
 	Button plottingControl;
 	private double XValue=0;
 	private double YValue=0;
-	private int heartRate = 0;
+	private int heartRate = 103;
 	private boolean isPlot = true;
 	private boolean isPulseChecklock = false;
 	int n = 0;
