@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Dimitry\AndroidStudioProjects\HeartPatientSimulator\app\libs\GraphView-3.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fde5ac3b4d45761447598d87b4c43cc4d143890a">
+        <dex dex="C:\Users\Dimitry\AndroidStudioProjects\HeartPatientSimulator\app\build\intermediates\pre-dexed\debug\GraphView-3.1.1-4db870439f4dfa9165119c18b5061ed9d8c1ffd0.jar" />
+    </item>
+    <item
+        jar="C:\adt-bundle-windows-x86_64-20130917\adt-bundle-windows-x86_64-20130917\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Dimitry\AndroidStudioProjects\HeartPatientSimulator\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-2e3323cfef0c068c65c47ea23fb35cd98b9376bb.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.heartpatientsimulator"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Reading"
+            android:label="Self Study" >
+        </activity>
+        <activity
+            android:name=".ReadingHealthy"
+            android:label="Healthy" >
+        </activity>
+        <activity
+            android:name=".ReadingBundleBranchBlock"
+            android:label="Bundle Branch Block" >
+        </activity>
+        <activity
+            android:name=".Bluetooth"
+            android:label="@string/title_activity_bluetooth" >
+        </activity>
+        <activity
+            android:name=".BackgroundInfo"
+            android:label="Background Info" >
+        </activity>
+        <activity
+            android:name=".SelfStudy"
+            android:label="Self Study" >
+        </activity>
+        <activity
+            android:name=".MyocardialInfarction"
+            android:label="Myocardial Infarction"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Healthy"
+            android:label="@string/title_activity_healthy"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Hypertrophy"
+            android:label="@string/title_activity_hypertrophy"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".AtrialFibrillation"
+            android:label="Atrial Fibrillation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".BundleBranchBlock"
+            android:label="Bundle Branch Block"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Cardiomyopathy"
+            android:label="@string/title_activity_cardiomyopathy"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".VentricularFibrillation"
+            android:label="Ventricular Fibrillation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Myocarditis"
+            android:label="@string/title_activity_myocarditis"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".UnstableAngina"
+            android:label="Unstable Angina"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".ValvularHeartDisease"
+            android:label="Valvular Heart Disease"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".VentricularTachycardia"
+            android:label="Ventricular Tachycardia"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".ReadingCardiomyopathy"
+            android:label="Cardiomyopathy" >
+        </activity>
+        <activity
+            android:name=".ReadingVentricularFibrillation"
+            android:label="Ventricular Fibrillation" >
+        </activity>
+        <activity
+            android:name=".ReadingAtrialFibrillation"
+            android:label="Atrial Fibrillation" >
+        </activity>
+        <activity
+            android:name=".ReadingHypertrophy"
+            android:label="Hypertrophy" >
+        </activity>
+        <activity
+            android:name=".ReadingMyocardialInfarction"
+            android:label="Myocardial Infarction" >
+        </activity>
+        <activity
+            android:name=".ReadingMyocarditis"
+            android:label="Myocarditis" >
+        </activity>
+        <activity
+            android:name=".ReadingUnstableAngina"
+            android:label="Unstable Angina" >
+        </activity>
+        <activity
+            android:name=".ReadingValvularHeartDisease"
+            android:label="Valvular Heart Disease" >
+        </activity>
+        <activity
+            android:name=".ReadingVentricularTachycardia"
+            android:label="Ventricular Tachycardia" >
+        </activity>
+        <activity
+            android:name=".Sample1"
+            android:label="@string/title_activity_sample1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Sample2"
+            android:label="@string/title_activity_sample2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Sample3"
+            android:label="Sample3"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Sample4"
+            android:label="Sample3"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Sample5"
+            android:label="@string/title_activity_sample5"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".RippleView"
+            android:label="@string/title_activity_ripple_view" >
+        </activity>
+    </application>
+
+</manifest>
